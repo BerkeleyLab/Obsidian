@@ -19,36 +19,37 @@ either standalone or as an I/O expansion board for [Marble](https://github.com/B
 
 ### Included features
 
-- [ ] At least one high-speed fiber; see below
-- [ ] 1 GigE port
-- [ ] 6 Pmod ports
-- [ ] MS5351M or SI5351A or similar for GTP frequency reference
-- [ ] FTDI USB interface
 - [ ] Arduino shield compatible, like the Digilent Arty
+- [ ] SPI flash boot
+- [ ] DDR3 memory chip
+- [ ] FTDI USB interface
+- [ ] 2 direct LEDs
+- [ ] 1 GigE port (PoE?)
+- [ ] 6 Pmod ports (3.3V)
+- [ ] MS5351M or SI5351A or similar for GTP frequency reference
+- [ ] USB-C (single USB cable)
+- [ ] 4 x SFP
+- [ ] i2c or 1-wire chip for serial number / rom 
+- [ ] White Rabbit
 
 ### High speed links
 
 The 7A50T-1CSG325C has 4 x GTP lanes, capable of 3.75 Gbaud.
 The primary use-case involves attaching one of those to a Marble over fiber.
-Possible hardware configurations that would meet that need,
-and enable other interesting I/O:
-
-- [ ] 1 x QSFP
-- [ ] 4 x SFP
-- [ ] 2 x SFP and 2 x SATA
-
-#### SATA related features
-
-The SATA connectors are intended to provide Marble Tiny peer-to-peer communication while the optical connector provides communication with Marble. Furthermore, the SATA standard allows to interface with commercial storage devices like SSD or HDD in order to memorize the sampled data. Possible use cases could be gathering of large dataset for machine learning, or any diagnostic purpose.
 
 ### Wishlist
 
-- [ ] Standardized board size for good case options: Mini-ATX (150 x 150 mm)?
-- [ ] Pmod directly connected to 3V3 FPGA pins (no bidirectional buffer chips)
-- [ ] Pmod pin number printed on PCB
-- [ ] DDR3 memory chip
-- [ ] White Rabbit
-- [ ] USB-C powered
-- [ ] Serial number shared between FTDI and FPGA
-- [ ] Direct DC voltage input gets priority; shared USB-C connector to FTDI only draws power for board if external DC voltage not connected
-- [ ] If board management MCU (uC) is required, consider RP2040 (or RP2350 if the RP2350-E9 issue is resolved with e.g. a new stepping)
+- [ ] Standardized board size for good case options: Mini-ATX (150 x 150 mm)? Pico-ATX?
+
+### Pins
+- 48 pins for 6 PMODs
+- 13 pins for RGMII (including reset pin)
+- 6 pins for White Rabbit
+- 2 pins for I2C
+- 14 pins for Arduino digital IO
+- 8 pins for Arduino 4 analog channels 
+- 49 pins for DDR3
+- 2 pins USB - UART
+- 2 Ethernet PHY MDIO
+- 4 WR SPI DAC
+- 1 or more clock input (some clocks can come in on GTPREFCLK).
