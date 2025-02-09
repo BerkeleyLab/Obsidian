@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "b9680df2-c652-4e56-a09f-4eec0eb313ab")
@@ -23790,7 +23790,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RTW0024B_V"
+		(property "Footprint" "ICs And Semiconductors SMD:QFN50P400X400X80-25N-S245"
 			(at 344.17 26.67 0)
 			(effects
 				(font
@@ -25877,7 +25877,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RTW0024B_V"
+		(property "Footprint" "ICs And Semiconductors SMD:QFN50P400X400X80-25N-S245"
 			(at 344.17 95.25 0)
 			(effects
 				(font

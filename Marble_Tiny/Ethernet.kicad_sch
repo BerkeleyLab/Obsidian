@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "97ce4f35-eb43-40d8-bb15-44fcb993edf8")
@@ -3631,6 +3631,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 12.065 45.72)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(arc
 					(start 12.7 45.72)
 					(mid 12.065 45.085)
@@ -3644,7 +3655,7 @@
 					)
 				)
 				(circle
-					(center 12.065 45.72)
+					(center 12.065 43.18)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -3666,15 +3677,16 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 12.065 43.18)
-					(radius 0.254)
+				(arc
+					(start 11.43 40.64)
+					(mid 12.065 41.275)
+					(end 12.7 40.64)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -3686,18 +3698,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(arc
-					(start 11.43 40.64)
-					(mid 12.065 41.275)
-					(end 12.7 40.64)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(circle
@@ -3769,6 +3769,17 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 12.065 25.4)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(arc
 					(start 12.7 25.4)
 					(mid 12.065 24.765)
@@ -3782,7 +3793,7 @@
 					)
 				)
 				(circle
-					(center 12.065 25.4)
+					(center 12.065 22.86)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -3804,15 +3815,16 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 12.065 22.86)
-					(radius 0.254)
+				(arc
+					(start 11.43 20.32)
+					(mid 12.065 20.955)
+					(end 12.7 20.32)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -3826,16 +3838,15 @@
 						(type outline)
 					)
 				)
-				(arc
-					(start 11.43 20.32)
-					(mid 12.065 20.955)
-					(end 12.7 20.32)
+				(circle
+					(center 12.065 15.24)
+					(radius 0.254)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -3851,7 +3862,7 @@
 					)
 				)
 				(circle
-					(center 12.065 15.24)
+					(center 12.065 12.7)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -3873,15 +3884,16 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 12.065 12.7)
-					(radius 0.254)
+				(arc
+					(start 11.43 10.16)
+					(mid 12.065 10.795)
+					(end 12.7 10.16)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -3893,18 +3905,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(arc
-					(start 11.43 10.16)
-					(mid 12.065 10.795)
-					(end 12.7 10.16)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -4768,17 +4768,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 20.32 10.795)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(arc
 					(start 20.32 11.43)
 					(mid 20.955 10.795)
@@ -4789,6 +4778,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 20.32 10.795)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -5018,6 +5018,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 22.86 31.115)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(arc
 					(start 22.86 30.48)
 					(mid 22.225 31.115)
@@ -5028,17 +5039,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 22.86 31.115)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -5363,7 +5363,7 @@
 				)
 				(polyline
 					(pts
-						(xy 27.432 22.86) (xy 27.432 47.752)
+						(xy 27.432 22.86) (xy 22.86 22.86)
 					)
 					(stroke
 						(width 0.254)
@@ -5375,7 +5375,7 @@
 				)
 				(polyline
 					(pts
-						(xy 27.432 22.86) (xy 22.86 22.86)
+						(xy 27.432 22.86) (xy 27.432 47.752)
 					)
 					(stroke
 						(width 0.254)
@@ -7835,7 +7835,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistors SMD:R1210_4K7_1%_0.5W_100PPM"
+		(symbol "Resistors SMD:R0402_4K7_1%_0.0625W_100PPM"
 			(pin_names
 				(offset 1.27)
 			)
@@ -7850,7 +7850,7 @@
 					)
 				)
 			)
-			(property "Value" "R1210_4K7_1%_0.5W_100PPM"
+			(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
 				(at 0 -4.953 0)
 				(effects
 					(font
@@ -7860,7 +7860,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistors SMD:RESC3225X70N"
+			(property "Footprint" "Resistors SMD:RESC1005X40N"
 				(at 0 -6.858 0)
 				(effects
 					(font
@@ -7870,7 +7870,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+			(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 				(at 0 -8.763 0)
 				(effects
 					(font
@@ -7905,7 +7905,7 @@
 					)
 				)
 			)
-			(property "Part Number" "R1210_4K7_1%_0.5W_100PPM"
+			(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 				(at 0 -10.668 0)
 				(effects
 					(font
@@ -7995,7 +7995,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint Ref" "RESC3225X70N"
+			(property "Footprint Ref" "RESC1005X40N"
 				(at 0 -27.813 0)
 				(effects
 					(font
@@ -8005,7 +8005,7 @@
 					(hide yes)
 				)
 			)
-			(property "Status" "None"
+			(property "Status" "Not Recommended"
 				(at 0 -29.718 0)
 				(effects
 					(font
@@ -8015,7 +8015,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" "0.5W"
+			(property "Power" "0.0625W"
 				(at 0 -31.623 0)
 				(effects
 					(font
@@ -8065,7 +8065,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "R1210_4K7_1%_0.5W_100PPM"
+			(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 				(at 0 -41.148 0)
 				(effects
 					(font
@@ -8075,7 +8075,7 @@
 					(hide yes)
 				)
 			)
-			(property "Case" "1210"
+			(property "Case" "0402"
 				(at 0 -43.053 0)
 				(effects
 					(font
@@ -8155,7 +8155,7 @@
 					(hide yes)
 				)
 			)
-			(property "ComponentHeight" "0.7mm"
+			(property "ComponentHeight" " "
 				(at 0 -58.293 0)
 				(effects
 					(font
@@ -8165,7 +8165,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer1 Example" "VISHAY"
+			(property "Manufacturer1 Example" "YAGEO PHYCOMP"
 				(at 0 -60.198 0)
 				(effects
 					(font
@@ -8175,7 +8175,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer1 Part Number" "CRCW12104K70FK"
+			(property "Manufacturer1 Part Number" "232270674702L"
 				(at 0 -62.103 0)
 				(effects
 					(font
@@ -8185,7 +8185,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer1 ComponentHeight" "0.7mm"
+			(property "Manufacturer1 ComponentHeight" "0.4mm"
 				(at 0 -64.008 0)
 				(effects
 					(font
@@ -8195,7 +8195,7 @@
 					(hide yes)
 				)
 			)
-			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 				(at 0 -65.913 0)
 				(effects
 					(font
@@ -8205,7 +8205,7 @@
 					(hide yes)
 				)
 			)
-			(property "Author" "CERN DEM WB"
+			(property "Author" "CERN DEM JLC"
 				(at 0 -67.818 0)
 				(effects
 					(font
@@ -8215,7 +8215,7 @@
 					(hide yes)
 				)
 			)
-			(property "CreateDate" "06/30/21 00:00:00"
+			(property "CreateDate" "12/03/07 00:00:00"
 				(at 0 -69.723 0)
 				(effects
 					(font
@@ -8225,7 +8225,7 @@
 					(hide yes)
 				)
 			)
-			(property "LatestRevisionDate" "06/30/21 00:00:00"
+			(property "LatestRevisionDate" "10/17/12 00:00:00"
 				(at 0 -71.628 0)
 				(effects
 					(font
@@ -8283,7 +8283,7 @@
 					)
 				)
 			)
-			(symbol "R1210_4K7_1%_0.5W_100PPM_0_1"
+			(symbol "R0402_4K7_1%_0.0625W_100PPM_0_1"
 				(polyline
 					(pts
 						(xy 1.524 0.762) (xy 1.524 -0.762)
@@ -12828,7 +12828,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors SMD:R1210_4K7_1%_0.5W_100PPM")
+		(lib_id "Resistors SMD:R0402_4K7_1%_0.0625W_100PPM")
 		(at 144.78 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12845,7 +12845,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 149.733 168.91 0)
 			(effects
 				(font
@@ -12855,7 +12855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC3225X70N"
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
 			(at 151.638 168.91 0)
 			(effects
 				(font
@@ -12865,7 +12865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 153.543 168.91 0)
 			(effects
 				(font
@@ -12885,24 +12885,22 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 144.78 164.084 0)
+			(at 144.78 165.1 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify right)
 			)
 		)
 		(property "Val" "4k7"
-			(at 139.954 166.116 90)
+			(at 146.558 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 155.448 168.91 0)
 			(effects
 				(font
@@ -12992,7 +12990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint Ref" "RESC3225X70N"
+		(property "Footprint Ref" "RESC1005X40N"
 			(at 172.593 168.91 0)
 			(effects
 				(font
@@ -13002,7 +13000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "None"
+		(property "Status" "Not Recommended"
 			(at 174.498 168.91 0)
 			(effects
 				(font
@@ -13012,7 +13010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.5W"
+		(property "Power" "0.0625W"
 			(at 176.403 168.91 0)
 			(effects
 				(font
@@ -13062,7 +13060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 185.928 168.91 0)
 			(effects
 				(font
@@ -13072,7 +13070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "1210"
+		(property "Case" "0402"
 			(at 187.833 168.91 0)
 			(effects
 				(font
@@ -13152,7 +13150,7 @@
 				(hide yes)
 			)
 		)
-		(property "ComponentHeight" "0.7mm"
+		(property "ComponentHeight" " "
 			(at 203.073 168.91 0)
 			(effects
 				(font
@@ -13162,7 +13160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "VISHAY"
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
 			(at 204.978 168.91 0)
 			(effects
 				(font
@@ -13172,7 +13170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "CRCW12104K70FK"
+		(property "Manufacturer1 Part Number" "232270674702L"
 			(at 206.883 168.91 0)
 			(effects
 				(font
@@ -13182,7 +13180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.7mm"
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
 			(at 208.788 168.91 0)
 			(effects
 				(font
@@ -13192,7 +13190,7 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 210.693 168.91 0)
 			(effects
 				(font
@@ -13202,7 +13200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM WB"
+		(property "Author" "CERN DEM JLC"
 			(at 212.598 168.91 0)
 			(effects
 				(font
@@ -13212,7 +13210,7 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "06/30/21 00:00:00"
+		(property "CreateDate" "12/03/07 00:00:00"
 			(at 214.503 168.91 0)
 			(effects
 				(font
@@ -13222,7 +13220,7 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "06/30/21 00:00:00"
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
 			(at 216.408 168.91 0)
 			(effects
 				(font
@@ -13288,7 +13286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors SMD:R1210_4K7_1%_0.5W_100PPM")
+		(lib_id "Resistors SMD:R0402_4K7_1%_0.0625W_100PPM")
 		(at 106.68 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13305,7 +13303,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 111.633 167.64 0)
 			(effects
 				(font
@@ -13315,7 +13313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC3225X70N"
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
 			(at 113.538 167.64 0)
 			(effects
 				(font
@@ -13325,7 +13323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 115.443 167.64 0)
 			(effects
 				(font
@@ -13345,24 +13343,22 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 106.68 162.814 0)
+			(at 106.68 163.83 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify right)
 			)
 		)
 		(property "Val" "4k7"
-			(at 101.854 164.846 90)
+			(at 108.458 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 117.348 167.64 0)
 			(effects
 				(font
@@ -13452,7 +13448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint Ref" "RESC3225X70N"
+		(property "Footprint Ref" "RESC1005X40N"
 			(at 134.493 167.64 0)
 			(effects
 				(font
@@ -13462,7 +13458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "None"
+		(property "Status" "Not Recommended"
 			(at 136.398 167.64 0)
 			(effects
 				(font
@@ -13472,7 +13468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.5W"
+		(property "Power" "0.0625W"
 			(at 138.303 167.64 0)
 			(effects
 				(font
@@ -13522,7 +13518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 147.828 167.64 0)
 			(effects
 				(font
@@ -13532,7 +13528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "1210"
+		(property "Case" "0402"
 			(at 149.733 167.64 0)
 			(effects
 				(font
@@ -13612,7 +13608,7 @@
 				(hide yes)
 			)
 		)
-		(property "ComponentHeight" "0.7mm"
+		(property "ComponentHeight" " "
 			(at 164.973 167.64 0)
 			(effects
 				(font
@@ -13622,7 +13618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "VISHAY"
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
 			(at 166.878 167.64 0)
 			(effects
 				(font
@@ -13632,7 +13628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "CRCW12104K70FK"
+		(property "Manufacturer1 Part Number" "232270674702L"
 			(at 168.783 167.64 0)
 			(effects
 				(font
@@ -13642,7 +13638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.7mm"
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
 			(at 170.688 167.64 0)
 			(effects
 				(font
@@ -13652,7 +13648,7 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 172.593 167.64 0)
 			(effects
 				(font
@@ -13662,7 +13658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM WB"
+		(property "Author" "CERN DEM JLC"
 			(at 174.498 167.64 0)
 			(effects
 				(font
@@ -13672,7 +13668,7 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "06/30/21 00:00:00"
+		(property "CreateDate" "12/03/07 00:00:00"
 			(at 176.403 167.64 0)
 			(effects
 				(font
@@ -13682,7 +13678,7 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "06/30/21 00:00:00"
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
 			(at 178.308 167.64 0)
 			(effects
 				(font
@@ -17905,7 +17901,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors SMD:R1210_4K7_1%_0.5W_100PPM")
+		(lib_id "Resistors SMD:R0402_4K7_1%_0.0625W_100PPM")
 		(at 137.16 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17922,7 +17918,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 142.113 168.91 0)
 			(effects
 				(font
@@ -17932,7 +17928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC3225X70N"
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
 			(at 144.018 168.91 0)
 			(effects
 				(font
@@ -17942,7 +17938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 145.923 168.91 0)
 			(effects
 				(font
@@ -17962,24 +17958,22 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 137.16 164.084 0)
+			(at 137.16 165.1 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify right)
 			)
 		)
 		(property "Val" "4k7"
-			(at 132.334 166.116 90)
+			(at 138.938 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 147.828 168.91 0)
 			(effects
 				(font
@@ -18069,7 +18063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint Ref" "RESC3225X70N"
+		(property "Footprint Ref" "RESC1005X40N"
 			(at 164.973 168.91 0)
 			(effects
 				(font
@@ -18079,7 +18073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "None"
+		(property "Status" "Not Recommended"
 			(at 166.878 168.91 0)
 			(effects
 				(font
@@ -18089,7 +18083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.5W"
+		(property "Power" "0.0625W"
 			(at 168.783 168.91 0)
 			(effects
 				(font
@@ -18139,7 +18133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 178.308 168.91 0)
 			(effects
 				(font
@@ -18149,7 +18143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "1210"
+		(property "Case" "0402"
 			(at 180.213 168.91 0)
 			(effects
 				(font
@@ -18229,7 +18223,7 @@
 				(hide yes)
 			)
 		)
-		(property "ComponentHeight" "0.7mm"
+		(property "ComponentHeight" " "
 			(at 195.453 168.91 0)
 			(effects
 				(font
@@ -18239,7 +18233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "VISHAY"
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
 			(at 197.358 168.91 0)
 			(effects
 				(font
@@ -18249,7 +18243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "CRCW12104K70FK"
+		(property "Manufacturer1 Part Number" "232270674702L"
 			(at 199.263 168.91 0)
 			(effects
 				(font
@@ -18259,7 +18253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.7mm"
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
 			(at 201.168 168.91 0)
 			(effects
 				(font
@@ -18269,7 +18263,7 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 203.073 168.91 0)
 			(effects
 				(font
@@ -18279,7 +18273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM WB"
+		(property "Author" "CERN DEM JLC"
 			(at 204.978 168.91 0)
 			(effects
 				(font
@@ -18289,7 +18283,7 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "06/30/21 00:00:00"
+		(property "CreateDate" "12/03/07 00:00:00"
 			(at 206.883 168.91 0)
 			(effects
 				(font
@@ -18299,7 +18293,7 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "06/30/21 00:00:00"
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
 			(at 208.788 168.91 0)
 			(effects
 				(font
@@ -20877,7 +20871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors SMD:R1210_4K7_1%_0.5W_100PPM")
+		(lib_id "Resistors SMD:R0402_4K7_1%_0.0625W_100PPM")
 		(at 144.78 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20894,7 +20888,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 149.733 152.4 0)
 			(effects
 				(font
@@ -20904,7 +20898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC3225X70N"
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
 			(at 151.638 152.4 0)
 			(effects
 				(font
@@ -20914,7 +20908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 153.543 152.4 0)
 			(effects
 				(font
@@ -20934,24 +20928,22 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 144.78 147.574 0)
+			(at 144.78 148.59 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify right)
 			)
 		)
 		(property "Val" "4k7"
-			(at 139.954 149.606 90)
+			(at 146.558 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 155.448 152.4 0)
 			(effects
 				(font
@@ -21041,7 +21033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint Ref" "RESC3225X70N"
+		(property "Footprint Ref" "RESC1005X40N"
 			(at 172.593 152.4 0)
 			(effects
 				(font
@@ -21051,7 +21043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "None"
+		(property "Status" "Not Recommended"
 			(at 174.498 152.4 0)
 			(effects
 				(font
@@ -21061,7 +21053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.5W"
+		(property "Power" "0.0625W"
 			(at 176.403 152.4 0)
 			(effects
 				(font
@@ -21111,7 +21103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 185.928 152.4 0)
 			(effects
 				(font
@@ -21121,7 +21113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "1210"
+		(property "Case" "0402"
 			(at 187.833 152.4 0)
 			(effects
 				(font
@@ -21201,7 +21193,7 @@
 				(hide yes)
 			)
 		)
-		(property "ComponentHeight" "0.7mm"
+		(property "ComponentHeight" " "
 			(at 203.073 152.4 0)
 			(effects
 				(font
@@ -21211,7 +21203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "VISHAY"
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
 			(at 204.978 152.4 0)
 			(effects
 				(font
@@ -21221,7 +21213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "CRCW12104K70FK"
+		(property "Manufacturer1 Part Number" "232270674702L"
 			(at 206.883 152.4 0)
 			(effects
 				(font
@@ -21231,7 +21223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.7mm"
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
 			(at 208.788 152.4 0)
 			(effects
 				(font
@@ -21241,7 +21233,7 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 210.693 152.4 0)
 			(effects
 				(font
@@ -21251,7 +21243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM WB"
+		(property "Author" "CERN DEM JLC"
 			(at 212.598 152.4 0)
 			(effects
 				(font
@@ -21261,7 +21253,7 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "06/30/21 00:00:00"
+		(property "CreateDate" "12/03/07 00:00:00"
 			(at 214.503 152.4 0)
 			(effects
 				(font
@@ -21271,7 +21263,7 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "06/30/21 00:00:00"
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
 			(at 216.408 152.4 0)
 			(effects
 				(font
@@ -21337,7 +21329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors SMD:R1210_4K7_1%_0.5W_100PPM")
+		(lib_id "Resistors SMD:R0402_4K7_1%_0.0625W_100PPM")
 		(at 114.3 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21354,7 +21346,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 119.253 167.64 0)
 			(effects
 				(font
@@ -21364,7 +21356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC3225X70N"
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
 			(at 121.158 167.64 0)
 			(effects
 				(font
@@ -21374,7 +21366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 123.063 167.64 0)
 			(effects
 				(font
@@ -21394,24 +21386,22 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 114.3 162.814 0)
+			(at 114.3 163.83 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify right)
 			)
 		)
 		(property "Val" "4k7"
-			(at 109.474 164.846 90)
+			(at 116.078 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 124.968 167.64 0)
 			(effects
 				(font
@@ -21501,7 +21491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint Ref" "RESC3225X70N"
+		(property "Footprint Ref" "RESC1005X40N"
 			(at 142.113 167.64 0)
 			(effects
 				(font
@@ -21511,7 +21501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "None"
+		(property "Status" "Not Recommended"
 			(at 144.018 167.64 0)
 			(effects
 				(font
@@ -21521,7 +21511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.5W"
+		(property "Power" "0.0625W"
 			(at 145.923 167.64 0)
 			(effects
 				(font
@@ -21571,7 +21561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 155.448 167.64 0)
 			(effects
 				(font
@@ -21581,7 +21571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "1210"
+		(property "Case" "0402"
 			(at 157.353 167.64 0)
 			(effects
 				(font
@@ -21661,7 +21651,7 @@
 				(hide yes)
 			)
 		)
-		(property "ComponentHeight" "0.7mm"
+		(property "ComponentHeight" " "
 			(at 172.593 167.64 0)
 			(effects
 				(font
@@ -21671,7 +21661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "VISHAY"
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
 			(at 174.498 167.64 0)
 			(effects
 				(font
@@ -21681,7 +21671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "CRCW12104K70FK"
+		(property "Manufacturer1 Part Number" "232270674702L"
 			(at 176.403 167.64 0)
 			(effects
 				(font
@@ -21691,7 +21681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.7mm"
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
 			(at 178.308 167.64 0)
 			(effects
 				(font
@@ -21701,7 +21691,7 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 180.213 167.64 0)
 			(effects
 				(font
@@ -21711,7 +21701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM WB"
+		(property "Author" "CERN DEM JLC"
 			(at 182.118 167.64 0)
 			(effects
 				(font
@@ -21721,7 +21711,7 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "06/30/21 00:00:00"
+		(property "CreateDate" "12/03/07 00:00:00"
 			(at 184.023 167.64 0)
 			(effects
 				(font
@@ -21731,7 +21721,7 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "06/30/21 00:00:00"
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
 			(at 185.928 167.64 0)
 			(effects
 				(font
@@ -25860,7 +25850,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors SMD:R1210_4K7_1%_0.5W_100PPM")
+		(lib_id "Resistors SMD:R0402_4K7_1%_0.0625W_100PPM")
 		(at 114.3 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25877,7 +25867,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 119.253 152.4 0)
 			(effects
 				(font
@@ -25887,7 +25877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC3225X70N"
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
 			(at 121.158 152.4 0)
 			(effects
 				(font
@@ -25897,7 +25887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 123.063 152.4 0)
 			(effects
 				(font
@@ -25917,24 +25907,22 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 114.3 147.574 0)
+			(at 114.3 148.59 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify right)
 			)
 		)
 		(property "Val" "4k7"
-			(at 109.474 149.606 90)
+			(at 116.078 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 124.968 152.4 0)
 			(effects
 				(font
@@ -26024,7 +26012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint Ref" "RESC3225X70N"
+		(property "Footprint Ref" "RESC1005X40N"
 			(at 142.113 152.4 0)
 			(effects
 				(font
@@ -26034,7 +26022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "None"
+		(property "Status" "Not Recommended"
 			(at 144.018 152.4 0)
 			(effects
 				(font
@@ -26044,7 +26032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.5W"
+		(property "Power" "0.0625W"
 			(at 145.923 152.4 0)
 			(effects
 				(font
@@ -26094,7 +26082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 155.448 152.4 0)
 			(effects
 				(font
@@ -26104,7 +26092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "1210"
+		(property "Case" "0402"
 			(at 157.353 152.4 0)
 			(effects
 				(font
@@ -26184,7 +26172,7 @@
 				(hide yes)
 			)
 		)
-		(property "ComponentHeight" "0.7mm"
+		(property "ComponentHeight" " "
 			(at 172.593 152.4 0)
 			(effects
 				(font
@@ -26194,7 +26182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "VISHAY"
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
 			(at 174.498 152.4 0)
 			(effects
 				(font
@@ -26204,7 +26192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "CRCW12104K70FK"
+		(property "Manufacturer1 Part Number" "232270674702L"
 			(at 176.403 152.4 0)
 			(effects
 				(font
@@ -26214,7 +26202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.7mm"
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
 			(at 178.308 152.4 0)
 			(effects
 				(font
@@ -26224,7 +26212,7 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 180.213 152.4 0)
 			(effects
 				(font
@@ -26234,7 +26222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM WB"
+		(property "Author" "CERN DEM JLC"
 			(at 182.118 152.4 0)
 			(effects
 				(font
@@ -26244,7 +26232,7 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "06/30/21 00:00:00"
+		(property "CreateDate" "12/03/07 00:00:00"
 			(at 184.023 152.4 0)
 			(effects
 				(font
@@ -26254,7 +26242,7 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "06/30/21 00:00:00"
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
 			(at 185.928 152.4 0)
 			(effects
 				(font
@@ -26516,7 +26504,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors SMD:R1210_4K7_1%_0.5W_100PPM")
+		(lib_id "Resistors SMD:R0402_4K7_1%_0.0625W_100PPM")
 		(at 86.36 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26533,7 +26521,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 91.313 167.64 0)
 			(effects
 				(font
@@ -26543,7 +26531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC3225X70N"
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
 			(at 93.218 167.64 0)
 			(effects
 				(font
@@ -26553,7 +26541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 95.123 167.64 0)
 			(effects
 				(font
@@ -26573,24 +26561,22 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 86.36 162.814 0)
+			(at 86.36 163.83 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify right)
 			)
 		)
 		(property "Val" "4k7"
-			(at 81.534 164.846 90)
+			(at 88.138 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 97.028 167.64 0)
 			(effects
 				(font
@@ -26680,7 +26666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint Ref" "RESC3225X70N"
+		(property "Footprint Ref" "RESC1005X40N"
 			(at 114.173 167.64 0)
 			(effects
 				(font
@@ -26690,7 +26676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "None"
+		(property "Status" "Not Recommended"
 			(at 116.078 167.64 0)
 			(effects
 				(font
@@ -26700,7 +26686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.5W"
+		(property "Power" "0.0625W"
 			(at 117.983 167.64 0)
 			(effects
 				(font
@@ -26750,7 +26736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 127.508 167.64 0)
 			(effects
 				(font
@@ -26760,7 +26746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "1210"
+		(property "Case" "0402"
 			(at 129.413 167.64 0)
 			(effects
 				(font
@@ -26840,7 +26826,7 @@
 				(hide yes)
 			)
 		)
-		(property "ComponentHeight" "0.7mm"
+		(property "ComponentHeight" " "
 			(at 144.653 167.64 0)
 			(effects
 				(font
@@ -26850,7 +26836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "VISHAY"
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
 			(at 146.558 167.64 0)
 			(effects
 				(font
@@ -26860,7 +26846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "CRCW12104K70FK"
+		(property "Manufacturer1 Part Number" "232270674702L"
 			(at 148.463 167.64 0)
 			(effects
 				(font
@@ -26870,7 +26856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.7mm"
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
 			(at 150.368 167.64 0)
 			(effects
 				(font
@@ -26880,7 +26866,7 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 152.273 167.64 0)
 			(effects
 				(font
@@ -26890,7 +26876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM WB"
+		(property "Author" "CERN DEM JLC"
 			(at 154.178 167.64 0)
 			(effects
 				(font
@@ -26900,7 +26886,7 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "06/30/21 00:00:00"
+		(property "CreateDate" "12/03/07 00:00:00"
 			(at 156.083 167.64 0)
 			(effects
 				(font
@@ -26910,7 +26896,7 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "06/30/21 00:00:00"
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
 			(at 157.988 167.64 0)
 			(effects
 				(font
@@ -27624,7 +27610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors SMD:R1210_4K7_1%_0.5W_100PPM")
+		(lib_id "Resistors SMD:R0402_4K7_1%_0.0625W_100PPM")
 		(at 60.96 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27641,7 +27627,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 65.913 167.64 0)
 			(effects
 				(font
@@ -27651,7 +27637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC3225X70N"
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
 			(at 67.818 167.64 0)
 			(effects
 				(font
@@ -27661,7 +27647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 69.723 167.64 0)
 			(effects
 				(font
@@ -27681,24 +27667,22 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 60.96 162.814 0)
+			(at 60.96 163.83 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify right)
 			)
 		)
 		(property "Val" "4k7"
-			(at 56.134 164.846 90)
+			(at 62.738 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 71.628 167.64 0)
 			(effects
 				(font
@@ -27788,7 +27772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint Ref" "RESC3225X70N"
+		(property "Footprint Ref" "RESC1005X40N"
 			(at 88.773 167.64 0)
 			(effects
 				(font
@@ -27798,7 +27782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "None"
+		(property "Status" "Not Recommended"
 			(at 90.678 167.64 0)
 			(effects
 				(font
@@ -27808,7 +27792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.5W"
+		(property "Power" "0.0625W"
 			(at 92.583 167.64 0)
 			(effects
 				(font
@@ -27858,7 +27842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 102.108 167.64 0)
 			(effects
 				(font
@@ -27868,7 +27852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "1210"
+		(property "Case" "0402"
 			(at 104.013 167.64 0)
 			(effects
 				(font
@@ -27948,7 +27932,7 @@
 				(hide yes)
 			)
 		)
-		(property "ComponentHeight" "0.7mm"
+		(property "ComponentHeight" " "
 			(at 119.253 167.64 0)
 			(effects
 				(font
@@ -27958,7 +27942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "VISHAY"
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
 			(at 121.158 167.64 0)
 			(effects
 				(font
@@ -27968,7 +27952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "CRCW12104K70FK"
+		(property "Manufacturer1 Part Number" "232270674702L"
 			(at 123.063 167.64 0)
 			(effects
 				(font
@@ -27978,7 +27962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.7mm"
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
 			(at 124.968 167.64 0)
 			(effects
 				(font
@@ -27988,7 +27972,7 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 126.873 167.64 0)
 			(effects
 				(font
@@ -27998,7 +27982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM WB"
+		(property "Author" "CERN DEM JLC"
 			(at 128.778 167.64 0)
 			(effects
 				(font
@@ -28008,7 +27992,7 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "06/30/21 00:00:00"
+		(property "CreateDate" "12/03/07 00:00:00"
 			(at 130.683 167.64 0)
 			(effects
 				(font
@@ -28018,7 +28002,7 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "06/30/21 00:00:00"
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
 			(at 132.588 167.64 0)
 			(effects
 				(font
@@ -29059,7 +29043,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors SMD:R1210_4K7_1%_0.5W_100PPM")
+		(lib_id "Resistors SMD:R0402_4K7_1%_0.0625W_100PPM")
 		(at 54.61 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29076,7 +29060,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 59.563 167.64 0)
 			(effects
 				(font
@@ -29086,7 +29070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC3225X70N"
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
 			(at 61.468 167.64 0)
 			(effects
 				(font
@@ -29096,7 +29080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 63.373 167.64 0)
 			(effects
 				(font
@@ -29116,24 +29100,22 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 54.61 162.814 0)
+			(at 54.61 163.83 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify right)
 			)
 		)
 		(property "Val" "4k7"
-			(at 49.784 164.846 90)
+			(at 56.388 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 65.278 167.64 0)
 			(effects
 				(font
@@ -29223,7 +29205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint Ref" "RESC3225X70N"
+		(property "Footprint Ref" "RESC1005X40N"
 			(at 82.423 167.64 0)
 			(effects
 				(font
@@ -29233,7 +29215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "None"
+		(property "Status" "Not Recommended"
 			(at 84.328 167.64 0)
 			(effects
 				(font
@@ -29243,7 +29225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.5W"
+		(property "Power" "0.0625W"
 			(at 86.233 167.64 0)
 			(effects
 				(font
@@ -29293,7 +29275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R1210_4K7_1%_0.5W_100PPM"
+		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
 			(at 95.758 167.64 0)
 			(effects
 				(font
@@ -29303,7 +29285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "1210"
+		(property "Case" "0402"
 			(at 97.663 167.64 0)
 			(effects
 				(font
@@ -29383,7 +29365,7 @@
 				(hide yes)
 			)
 		)
-		(property "ComponentHeight" "0.7mm"
+		(property "ComponentHeight" " "
 			(at 112.903 167.64 0)
 			(effects
 				(font
@@ -29393,7 +29375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "VISHAY"
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
 			(at 114.808 167.64 0)
 			(effects
 				(font
@@ -29403,7 +29385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "CRCW12104K70FK"
+		(property "Manufacturer1 Part Number" "232270674702L"
 			(at 116.713 167.64 0)
 			(effects
 				(font
@@ -29413,7 +29395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.7mm"
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
 			(at 118.618 167.64 0)
 			(effects
 				(font
@@ -29423,7 +29405,7 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1210_VISHAY_CRCW e3.pdf"
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
 			(at 120.523 167.64 0)
 			(effects
 				(font
@@ -29433,7 +29415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM WB"
+		(property "Author" "CERN DEM JLC"
 			(at 122.428 167.64 0)
 			(effects
 				(font
@@ -29443,7 +29425,7 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "06/30/21 00:00:00"
+		(property "CreateDate" "12/03/07 00:00:00"
 			(at 124.333 167.64 0)
 			(effects
 				(font
@@ -29453,7 +29435,7 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "06/30/21 00:00:00"
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
 			(at 126.238 167.64 0)
 			(effects
 				(font

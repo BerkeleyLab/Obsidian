@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "a96527d9-66b3-4ab1-9197-c3272f95f8c0")
@@ -3979,7 +3979,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -3991,7 +3991,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -4101,17 +4101,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -4122,6 +4111,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
@@ -5552,17 +5552,6 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 1.27 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.27 -7.62)
@@ -5576,7 +5565,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -5.08)
+					(center 1.27 -2.54)
 					(radius 0.254)
 					(stroke
 						(width 0.254)
@@ -5590,6 +5579,17 @@
 					(pts
 						(xy 1.27 -5.08) (xy 8.89 -5.08)
 					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -5.08)
+					(radius 0.254)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -5683,7 +5683,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.318 -10.16) (xy 4.318 -5.08)
+						(xy 4.318 -10.16) (xy 0 -10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -5695,7 +5695,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.318 -10.16) (xy 0 -10.16)
+						(xy 4.318 -10.16) (xy 4.318 -5.08)
 					)
 					(stroke
 						(width 0.254)

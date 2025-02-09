@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "2aee5098-a3b7-4adc-b5aa-4976ca5e69fd")
@@ -8623,7 +8623,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Inductors SMD:IND0603_MURATA_BLM18AG601SN1"
+		(symbol "Inductors SMD:IND0402_MURATA_BLM15HB221SN1"
 			(pin_names
 				(offset 1.27)
 			)
@@ -8638,7 +8638,7 @@
 					)
 				)
 			)
-			(property "Value" "IND0603_MURATA_BLM18AG601SN1"
+			(property "Value" "IND0402_MURATA_BLM15HB221SN1"
 				(at 0 -4.953 0)
 				(effects
 					(font
@@ -8648,7 +8648,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Inductors SMD:INDC1608X95N"
+			(property "Footprint" "Inductors SMD:INDC1005X55N"
 				(at 0 -6.858 0)
 				(effects
 					(font
@@ -8658,7 +8658,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18A.pdf"
+			(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0402_MURATA_BLM15H.pdf"
 				(at 0 -8.763 0)
 				(effects
 					(font
@@ -8677,7 +8677,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "600R@100MHz"
+			(property "Val" "220R@100MHz"
 				(at 3.81 -1.778 0)
 				(effects
 					(font
@@ -8685,7 +8685,7 @@
 					)
 				)
 			)
-			(property "Part Number" "IND0603_MURATA_BLM18AG601SN1"
+			(property "Part Number" "IND0402_MURATA_BLM15HB221SN1"
 				(at 0 -10.668 0)
 				(effects
 					(font
@@ -8715,7 +8715,7 @@
 					(hide yes)
 				)
 			)
-			(property "Comment" "600R@100MHz"
+			(property "Comment" "220R@100MHz"
 				(at 0 -16.383 0)
 				(effects
 					(font
@@ -8775,7 +8775,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint Ref" "INDC1608X95N"
+			(property "Footprint Ref" "INDC1005X55N"
 				(at 0 -27.813 0)
 				(effects
 					(font
@@ -8795,7 +8795,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" "500mA"
+			(property "Power" "250mA"
 				(at 0 -31.623 0)
 				(effects
 					(font
@@ -8805,7 +8805,7 @@
 					(hide yes)
 				)
 			)
-			(property "Resistance" "0.38R"
+			(property "Resistance" "1R"
 				(at 0 -33.528 0)
 				(effects
 					(font
@@ -8845,7 +8845,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "BLM18AG601SN1"
+			(property "Manufacturer Part Number" "BLM15HB221SN1"
 				(at 0 -41.148 0)
 				(effects
 					(font
@@ -8855,7 +8855,7 @@
 					(hide yes)
 				)
 			)
-			(property "Case" "0603"
+			(property "Case" "0402"
 				(at 0 -43.053 0)
 				(effects
 					(font
@@ -8925,7 +8925,7 @@
 					(hide yes)
 				)
 			)
-			(property "ComponentHeight" "0.95mm"
+			(property "ComponentHeight" "0.55mm"
 				(at 0 -56.388 0)
 				(effects
 					(font
@@ -8935,7 +8935,7 @@
 					(hide yes)
 				)
 			)
-			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18A.pdf"
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0402_MURATA_BLM15H.pdf"
 				(at 0 -58.293 0)
 				(effects
 					(font
@@ -8945,7 +8945,7 @@
 					(hide yes)
 				)
 			)
-			(property "Author" "CERN DEM MR"
+			(property "Author" "CERN DEM JLC"
 				(at 0 -60.198 0)
 				(effects
 					(font
@@ -8955,7 +8955,7 @@
 					(hide yes)
 				)
 			)
-			(property "CreateDate" "04/01/16 00:00:00"
+			(property "CreateDate" "06/23/09 00:00:00"
 				(at 0 -62.103 0)
 				(effects
 					(font
@@ -9023,7 +9023,7 @@
 					)
 				)
 			)
-			(symbol "IND0603_MURATA_BLM18AG601SN1_0_1"
+			(symbol "IND0402_MURATA_BLM15HB221SN1_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 6.35 0)
@@ -9095,7 +9095,7 @@
 					)
 				)
 			)
-			(symbol "IND0603_MURATA_BLM18AG601SN1_0_2"
+			(symbol "IND0402_MURATA_BLM15HB221SN1_0_2"
 				(polyline
 					(pts
 						(xy 1.524 0.762) (xy 1.524 -0.762)
@@ -20737,415 +20737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Inductors SMD:IND0603_MURATA_BLM18AG601SN1")
-		(at 39.37 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d5864f5-c96b-4b72-b88f-cf4ca934bc9b")
-		(property "Reference" "L16"
-			(at 43.434 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IND0603_MURATA_BLM18AG601SN1"
-			(at 39.37 54.483 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Inductors SMD:INDC1608X95N"
-			(at 39.37 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18A.pdf"
-			(at 39.37 58.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD EMIFIL Suppression Chip Ferrite Bead"
-			(at 39.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "600R@100MHz"
-			(at 43.434 52.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "IND0603_MURATA_BLM18AG601SN1"
-			(at 39.37 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Library Ref" "Ferrite Bead"
-			(at 39.37 62.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Library Path" "SchLib\\Inductors & Transformers.SchLib"
-			(at 39.37 64.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Comment" "600R@100MHz"
-			(at 39.37 65.913 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 39.37 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 39.37 69.723 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" " "
-			(at 39.37 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 39.37 73.533 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint Path" "PcbLib\\Inductors SMD.PcbLib"
-			(at 39.37 75.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint Ref" "INDC1608X95N"
-			(at 39.37 77.343 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" " "
-			(at 39.37 79.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Power" "500mA"
-			(at 39.37 81.153 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0.38R"
-			(at 39.37 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±25%"
-			(at 39.37 84.963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD EMIFIL Suppression Chip Ferrite Bead"
-			(at 39.37 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MURATA"
-			(at 39.37 88.773 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "BLM18AG601SN1"
-			(at 39.37 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 39.37 92.583 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 39.37 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 39.37 96.393 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 39.37 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" " "
-			(at 39.37 100.203 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 39.37 102.108 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" " "
-			(at 39.37 104.013 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" "0.95mm"
-			(at 39.37 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18A.pdf"
-			(at 39.37 107.823 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM MR"
-			(at 39.37 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "04/01/16 00:00:00"
-			(at 39.37 111.633 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "10/25/18 00:00:00"
-			(at 39.37 113.538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Inductors & Transformers"
-			(at 39.37 115.443 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Library Name" "Inductors SMD"
-			(at 39.37 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint Library" "Inductors SMD"
-			(at 39.37 119.253 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "License" "CC-BY-SA 4.0"
-			(at 39.37 121.158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2bb6989f-d2e0-4eeb-8045-521710656b78")
-		)
-		(pin "1"
-			(uuid "98d6dd78-4b24-4af0-aa68-3071cb62b9a4")
-		)
-		(instances
-			(project "Marble_Tiny"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/f2609fed-4004-456d-8ec9-65edf81cfc90"
-					(reference "L16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 173.99 0)
 		(unit 1)
@@ -29638,6 +29229,416 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/f2609fed-4004-456d-8ec9-65edf81cfc90"
 					(reference "C122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Inductors SMD:IND0402_MURATA_BLM15HB221SN1")
+		(at 39.37 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "930679c5-2c9b-4548-8bf4-b931427b9087")
+		(property "Reference" "L16"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IND0402_MURATA_BLM15HB221SN1"
+			(at 39.37 54.483 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductors SMD:INDC1005X55N"
+			(at 39.37 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0402_MURATA_BLM15H.pdf"
+			(at 39.37 58.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD EMIFIL Suppression Chip Ferrite Bead"
+			(at 39.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "220R@100MHz"
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "IND0402_MURATA_BLM15HB221SN1"
+			(at 39.37 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Ferrite Bead"
+			(at 39.37 62.103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Inductors & Transformers.SchLib"
+			(at 39.37 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "220R@100MHz"
+			(at 39.37 65.913 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 39.37 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 39.37 69.723 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 39.37 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 39.37 73.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Inductors SMD.PcbLib"
+			(at 39.37 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "INDC1005X55N"
+			(at 39.37 77.343 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" " "
+			(at 39.37 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power" "250mA"
+			(at 39.37 81.153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1R"
+			(at 39.37 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±25%"
+			(at 39.37 84.963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD EMIFIL Suppression Chip Ferrite Bead"
+			(at 39.37 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MURATA"
+			(at 39.37 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BLM15HB221SN1"
+			(at 39.37 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 39.37 92.583 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 39.37 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 39.37 96.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 39.37 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 39.37 100.203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 39.37 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 39.37 104.013 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" "0.55mm"
+			(at 39.37 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0402_MURATA_BLM15H.pdf"
+			(at 39.37 107.823 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 39.37 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "06/23/09 00:00:00"
+			(at 39.37 111.633 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "10/25/18 00:00:00"
+			(at 39.37 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Inductors & Transformers"
+			(at 39.37 115.443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Inductors SMD"
+			(at 39.37 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Inductors SMD"
+			(at 39.37 119.253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 39.37 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "499cfb7d-6e83-49c2-a2e7-7a6536c2c668")
+		)
+		(pin "2"
+			(uuid "c4cd9914-8fd7-441d-bfbe-d6037969bff7")
+		)
+		(instances
+			(project ""
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/f2609fed-4004-456d-8ec9-65edf81cfc90"
+					(reference "L16")
 					(unit 1)
 				)
 			)

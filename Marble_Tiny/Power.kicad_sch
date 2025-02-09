@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "3894f951-e8e4-40f7-b7a8-6d87a3ef0bf0")
@@ -3802,7 +3802,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -3814,7 +3814,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -4412,7 +4412,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 1.016) (xy 4.572 -1.016)
+						(xy 4.572 1.016) (xy 4.064 1.524)
 					)
 					(stroke
 						(width 0.254)
@@ -4424,7 +4424,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 1.016) (xy 4.064 1.524)
+						(xy 4.572 1.016) (xy 4.572 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -11378,7 +11378,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -8.89) (xy 7.62 -5.08)
+						(xy 0 -8.89) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -11390,7 +11390,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -8.89) (xy 0 -1.27)
+						(xy 0 -8.89) (xy 7.62 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -17919,7 +17919,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOIC127P600X155-9N"
+		(property "Footprint" "ICs And Semiconductors SMD:SOIC127P600X168-9N-S230"
 			(at 228.6 93.98 0)
 			(effects
 				(font
@@ -19474,7 +19474,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SON65P300X300X100-9N-D"
+		(property "Footprint" "ICs And Semiconductors SMD:SON65P300X300X100-9N-R170X245"
 			(at 212.09 118.11 0)
 			(effects
 				(font
@@ -43024,7 +43024,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DBV0005A_MFG"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 210.82 144.78 0)
 			(effects
 				(font

@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "5e40d4e6-f59b-464b-90e4-6beb129e301f")
@@ -6316,50 +6316,6 @@
 			)
 		)
 	)
-	(global_label "REF_CLK1_N"
-		(shape input)
-		(at 92.71 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62c2b1c7-12e5-4ae5-ab08-4515b826b71e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.1739 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "REF_CLK1_P"
-		(shape input)
-		(at 92.71 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6529e27a-843e-4166-b551-0be9faef72bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.2344 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MGT_RX3_N"
 		(shape input)
 		(at 93.98 92.71 180)
@@ -6373,6 +6329,28 @@
 		(uuid "684619bc-3087-40db-934a-580f49802ca5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 80.3511 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "REF_CLK0_N"
+		(shape input)
+		(at 92.71 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ab8db90-ca80-460b-aac7-edee79317ce8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.1739 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,6 +6485,28 @@
 		(uuid "907b64af-bec3-4069-897c-237b1daf3693")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.5446 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "REF_CLK0_P"
+		(shape input)
+		(at 92.71 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d1d461f-6245-446a-9432-fcd2ec9a0dd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.2344 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
