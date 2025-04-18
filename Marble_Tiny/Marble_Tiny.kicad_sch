@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "c2a4f786-b14c-434a-acf7-b20fb2221b0b")
 	(paper "A3")
+	(title_block
+		(date "2025-04-18")
+		(rev "${rev}")
+		(company "${name}")
+		(comment 1 "${author}")
+	)
 	(lib_symbols
 		(symbol "Pads:PLATED_HOLE3.2_PAD5.5"
 			(pin_names

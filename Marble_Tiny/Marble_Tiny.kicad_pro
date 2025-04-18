@@ -63,7 +63,32 @@
           "width": 0.14
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_to_hole|145400000|64275000|654f907e-cc1f-44be-8c76-2bf3206b9ad1|8972462d-8c58-4969-a21c-153b9a214efc",
+          ""
+        ],
+        [
+          "hole_to_hole|145400000|73875000|77b41f3a-7461-4957-934b-37b9fc447a74|a85258f1-777d-44d2-84d4-a8536faac648",
+          ""
+        ],
+        [
+          "hole_to_hole|145400000|78530000|17c2ae84-3769-4d00-ab17-3f15d1de8f69|f3b61beb-2a1b-4617-abbf-ba8bacd9fb3e",
+          ""
+        ],
+        [
+          "hole_to_hole|145400000|88130000|b4742145-aade-4ab3-9c92-50d2c7a92fee|cf1c1246-05cb-43d3-adc0-9c47871da323",
+          ""
+        ],
+        [
+          "hole_to_hole|151600000|69080000|76489116-25a6-44c1-87bf-b74ed459949c|98aeb73f-930a-4d46-805d-60d91ce9f4f5",
+          ""
+        ],
+        [
+          "hole_to_hole|151600000|83330000|0cc855ae-1f72-4769-b16c-2d0def265e19|6b2280b0-71a4-442e-ac16-06f674693eed",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -1657,5 +1682,9 @@
       "Arduino"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "author": "Michal Gaska",
+    "name": " Talc A35T",
+    "rev": "1.0.0"
+  }
 }

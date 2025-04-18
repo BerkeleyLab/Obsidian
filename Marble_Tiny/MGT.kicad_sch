@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "5e40d4e6-f59b-464b-90e4-6beb129e301f")
 	(paper "A4")
+	(title_block
+		(date "2025-04-18")
+		(rev "${rev}")
+		(company "${name}")
+		(comment 1 "${author}")
+	)
 	(lib_symbols
 		(symbol "FPGA_Xilinx_Artix7:XC7A35T-CSG325"
 			(pin_names

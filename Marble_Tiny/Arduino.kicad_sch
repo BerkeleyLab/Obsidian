@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "6f5ed8c2-e03b-4d7f-b879-12a184a54d90")
 	(paper "A4")
+	(title_block
+		(date "2025-04-18")
+		(rev "${rev}")
+		(company "${name}")
+		(comment 1 "${author}")
+	)
 	(lib_symbols
 		(symbol "MCU_Module:Arduino_UNO_R3"
 			(exclude_from_sim no)

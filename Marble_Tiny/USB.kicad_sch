@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "a96527d9-66b3-4ab1-9197-c3272f95f8c0")
 	(paper "A4")
+	(title_block
+		(date "2025-04-18")
+		(rev "${rev}")
+		(company "${name}")
+		(comment 1 "${author}")
+	)
 	(lib_symbols
 		(symbol "Analog & Interface:FT2232HQ"
 			(pin_names

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "8b791a27-5bae-4a3c-9b68-ac66198ed5a8")
 	(paper "A4")
+	(title_block
+		(date "2025-04-18")
+		(rev "${rev}")
+		(company "${name}")
+		(comment 1 "${author}")
+	)
 	(lib_symbols
 		(symbol "Analog_&_Interface:DAC8550IDGK"
 			(pin_names

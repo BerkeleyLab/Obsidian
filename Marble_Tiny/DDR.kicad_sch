@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "501dc301-3684-4bf0-a820-942813c8b0c5")
 	(paper "A4")
+	(title_block
+		(date "2025-04-18")
+		(rev "${rev}")
+		(company "${name}")
+		(comment 1 "${author}")
+	)
 	(lib_symbols
 		(symbol "Capacitors SMD:CC0201_100NF_6.3V_10%_X5R"
 			(pin_names
