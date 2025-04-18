@@ -9,22 +9,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "A"
-				(at -10.16 23.495 0)
+			(property "Reference" "A1"
+				(at -9.398 24.384 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "Arduino_UNO_R3"
-				(at 5.08 -26.67 0)
+				(at 12.7 22.098 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Module:Arduino_UNO_R3"
@@ -412,7 +412,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 2.54 25.4 270)
 					(length 2.54)
 					(name "3V3"
@@ -3192,6 +3192,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee5c8e92-179c-4770-86d5-4064d72c31b9")
+	)
+	(no_connect
+		(at 151.13 69.85)
+		(uuid "08fb1b6f-168f-430a-a6b7-7b23b690eafc")
+	)
+	(no_connect
+		(at 151.13 74.93)
+		(uuid "80efd48c-252b-4b4c-a491-10e94f025c81")
+	)
+	(no_connect
+		(at 151.13 80.01)
+		(uuid "910cdcb3-2ff6-4c9c-b80d-eee128678b13")
+	)
+	(no_connect
+		(at 143.51 59.69)
+		(uuid "9141df4f-b736-43e0-b732-f45af0996eb9")
 	)
 	(wire
 		(pts

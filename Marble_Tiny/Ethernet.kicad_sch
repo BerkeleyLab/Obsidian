@@ -1589,6 +1589,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Crystals & Oscillators:XTAL_25MHZ_EPSON_TSX-3225_25.0000MF10Z-AC"
 			(pin_names
 				(offset 1.27)
@@ -10246,16 +10353,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 62.23) (xy 69.85 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "009fcf7b-8959-4de2-a0fc-def1acaf0d0c")
-	)
-	(wire
-		(pts
 			(xy 218.44 80.01) (xy 218.44 90.17)
 		)
 		(stroke
@@ -11016,16 +11113,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 52.07) (xy 69.85 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f31db5d-0c69-43a0-800a-883992a90821")
-	)
-	(wire
-		(pts
 			(xy 203.2 92.71) (xy 222.25 92.71)
 		)
 		(stroke
@@ -11203,6 +11290,16 @@
 			(type default)
 		)
 		(uuid "c6b34504-f3ad-49ea-ae36-d56aa5f28591")
+	)
+	(wire
+		(pts
+			(xy 69.85 62.23) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c734dbbc-cf84-4af0-8522-f3710c6bf634")
 	)
 	(wire
 		(pts
@@ -11406,16 +11503,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 62.23) (xy 69.85 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fafe381b-2042-47da-817e-aef0c9366263")
-	)
-	(wire
-		(pts
 			(xy 96.52 160.02) (xy 106.68 160.02)
 		)
 		(stroke
@@ -11523,16 +11610,6 @@
 			(justify left bottom)
 		)
 		(uuid "5261a44b-75dc-476e-a74b-eefa7d161cbf")
-	)
-	(label "INT_PHY"
-		(at 44.45 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a0ada5b-cc69-4d47-9fc7-d95d6a640d55")
 	)
 	(label "MDI3_P"
 		(at 140.97 67.31 0)
@@ -14311,7 +14388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 128.016 0)
+			(at 184.15 128.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14874,6 +14951,71 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aa42323-8d32-48e5-8ef2-d4e6ce2bd593")
+		(property "Reference" "TP4"
+			(at 66.548 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.548 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31887412-5ff6-4a63-81a1-b4d866cf318f")
+		)
+		(instances
+			(project ""
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
+					(reference "TP4")
 					(unit 1)
 				)
 			)

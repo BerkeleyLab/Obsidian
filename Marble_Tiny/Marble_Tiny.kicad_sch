@@ -491,6 +491,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 158.75 245.11)
+		(uuid "27119c5a-ac2b-4301-95eb-fb853b37527a")
+	)
+	(no_connect
+		(at 165.1 245.11)
+		(uuid "55eab4a9-53cd-43a2-94fa-3dc5a6411b8d")
+	)
+	(no_connect
+		(at 163.83 241.3)
+		(uuid "6a9a2273-ea82-4656-bef0-d174580a60b3")
+	)
+	(no_connect
+		(at 177.8 245.11)
+		(uuid "9b5cb50c-56ee-446a-a5c3-b986e04ab23d")
+	)
+	(no_connect
+		(at 171.45 245.11)
+		(uuid "f7492965-4528-491e-80f4-e7d748f044bc")
+	)
 	(symbol
 		(lib_id "Pads:PLATED_HOLE3.2_PAD5.5")
 		(at 177.8 245.11 0)

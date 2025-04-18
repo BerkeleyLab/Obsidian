@@ -3762,8 +3762,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J2"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3771,14 +3771,14 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -4230,7 +4230,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
@@ -11971,20 +11971,136 @@
 		(uuid "f5691c8e-b397-429b-91e2-1bd8adf5391e")
 	)
 	(no_connect
+		(at 222.25 102.87)
+		(uuid "1dd9fe87-07bc-439c-b28f-00cc8841dd11")
+	)
+	(no_connect
+		(at 222.25 54.61)
+		(uuid "1f7b628e-c91b-4894-85d1-d77ce0e1a738")
+	)
+	(no_connect
+		(at 222.25 82.55)
+		(uuid "313c0993-f852-4cea-b8af-7fbfa43597e4")
+	)
+	(no_connect
+		(at 222.25 120.65)
+		(uuid "3445012f-e5e3-4fd5-bddf-70f70ea68709")
+	)
+	(no_connect
+		(at 222.25 87.63)
+		(uuid "37f67fa8-2131-4675-ab70-86a60ab89975")
+	)
+	(no_connect
+		(at 222.25 105.41)
+		(uuid "3c0bafc2-19de-4c5f-8aef-24713eaec50c")
+	)
+	(no_connect
+		(at 222.25 113.03)
+		(uuid "3dd6de11-b67e-4df3-95d9-dba2681b9b6b")
+	)
+	(no_connect
+		(at 179.07 29.21)
+		(uuid "3fd17233-9ef7-4810-9911-629b4bd23b9a")
+	)
+	(no_connect
+		(at 222.25 44.45)
+		(uuid "407731a5-81e4-40b7-9cb6-89742b1a10da")
+	)
+	(no_connect
+		(at 222.25 107.95)
+		(uuid "4af64c0c-d027-41f3-9fd4-a0c27911cd55")
+	)
+	(no_connect
+		(at 222.25 110.49)
+		(uuid "4bf5fcc8-376c-4753-a104-fbe9cb58b0c1")
+	)
+	(no_connect
+		(at 222.25 52.07)
+		(uuid "4db322fb-26ea-4a47-b0cd-a49dd8b77735")
+	)
+	(no_connect
+		(at 222.25 67.31)
+		(uuid "5325d99e-51cf-40e6-bf68-e4948f3d73eb")
+	)
+	(no_connect
+		(at 222.25 46.99)
+		(uuid "60d36cf8-175e-46f6-972f-bb2abeef6dc9")
+	)
+	(no_connect
+		(at 222.25 92.71)
+		(uuid "687de046-74c7-4a99-b2c2-f6a95f07d292")
+	)
+	(no_connect
+		(at 222.25 41.91)
+		(uuid "73417a2e-465a-49f2-9719-1ab9f8c5d77d")
+	)
+	(no_connect
+		(at 222.25 39.37)
+		(uuid "76bc5c45-79dd-45a9-b798-4a4d937fb64a")
+	)
+	(no_connect
 		(at 120.65 82.55)
 		(uuid "812be931-09ed-4591-8561-9c4079e63365")
+	)
+	(no_connect
+		(at 222.25 123.19)
+		(uuid "8e1a7f21-43de-47d7-9083-aa3fb0210937")
+	)
+	(no_connect
+		(at 222.25 80.01)
+		(uuid "8e8dd6b3-5b79-4720-b106-47b85d89cc71")
+	)
+	(no_connect
+		(at 222.25 62.23)
+		(uuid "a0550c70-306c-4520-8699-489065372542")
 	)
 	(no_connect
 		(at 64.77 63.5)
 		(uuid "a8d1a498-ed46-4e26-bdce-5bd9bbb06c4c")
 	)
 	(no_connect
+		(at 222.25 100.33)
+		(uuid "aee3518b-775b-4b2b-8ab5-8de5f3a0c88b")
+	)
+	(no_connect
 		(at 64.77 60.96)
 		(uuid "bb06bbd2-7a9c-4381-b607-77b5323445d5")
 	)
 	(no_connect
+		(at 222.25 115.57)
+		(uuid "c3754151-6d4d-47f1-b5fd-87ef38a51593")
+	)
+	(no_connect
+		(at 222.25 85.09)
+		(uuid "c85ce86a-b731-469b-9930-438e56948236")
+	)
+	(no_connect
+		(at 222.25 69.85)
+		(uuid "ca3d3c17-026e-41b7-82ad-dd5b6e3644e7")
+	)
+	(no_connect
+		(at 222.25 90.17)
+		(uuid "ced257a4-0ead-4a11-a30c-6442d78749c8")
+	)
+	(no_connect
+		(at 222.25 64.77)
+		(uuid "df625d60-97e9-47cd-9c91-f827aeb3c576")
+	)
+	(no_connect
 		(at 148.59 82.55)
 		(uuid "e283f447-93af-4113-9b5f-249293cfcd94")
+	)
+	(no_connect
+		(at 222.25 59.69)
+		(uuid "eb555009-7004-4a15-baf9-6e104e4854b6")
+	)
+	(no_connect
+		(at 222.25 57.15)
+		(uuid "ed00e57c-04df-438d-8617-b5bd5b6acc05")
+	)
+	(no_connect
+		(at 222.25 97.79)
+		(uuid "f18aedb1-de2e-42bc-a7b0-ad6c16245b7f")
 	)
 	(wire
 		(pts
