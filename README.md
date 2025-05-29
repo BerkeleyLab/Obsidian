@@ -1,13 +1,13 @@
-# Marble Tiny
+# Obsidian
 
 ## Description
 
-Marble Tiny is a FPGA carrier board in development, designed to interface with ADC and DAC devices,
+Obsidian is a FPGA carrier board in development, designed to interface with ADC and DAC devices,
 either stand-alone or as an I/O expansion board for [Marble](https://github.com/BerkeleyLab/Marble).
 
 The design files here were created with [KiCad](https://www.kicad.org/) version 9.0.0-rc3.
 
-![Marble_Tiny](Marble_Tiny/3Drender.JPG)
+![Obsidian](Obsidian/3Drender.JPG)
 
 ## Major Parts
 
