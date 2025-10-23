@@ -1,4 +1,4 @@
-# Copyright
+# Copyright Notice
 
 Obsidian A35 Copyright (c) 2025, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Department of Energy). All rights reserved.
 
