@@ -1,4 +1,5 @@
 *-bak
 *-backups
 *.lck
-Obsidian/Fabrication/
+fp-info-cache
+*/Fabrication/
