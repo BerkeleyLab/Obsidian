@@ -1,0 +1,75 @@
+kibot:
+  version: 1
+global:
+  out_dir: output
+preflight:
+  check_zone_fills: true
+  erc: false
+  drc: false
+outputs:
+  - name: Info
+    type: info
+
+  - name: Report
+    type: report
+  - name: BoM
+    type: bom
+    options:
+      format: 'CSV'
+      csv:
+        quote_all: true
+        hide_pcb_info: true
+        hide_stats_info: true
+      columns:
+        - Row
+        - Quantity Per PCB
+        - References
+        - Manufacturer Part Number
+        - Manufacturer
+        - Value
+        - Footprint
+        - Description
+      group_fields: ['MPN']
+      parse_value: false
+      normalize_values: false
+      # include test points, which are actual components
+      exclude_filter: ''
+
+  - name: 'print_sch'
+    type: pdf_sch_print
+
+  - name: 'gerbers'
+    type: gerber
+    dir: gerber
+    options:
+      exclude_edge_layer: false
+      plot_sheet_reference: true
+    layers:
+      - 'copper'
+      - 'technical'
+      - 'user'
+
+  - name: 'd356'
+    type: netlist
+    dir: gerber
+    options:
+      format: "ipc"
+
+  - name: drill
+    type: excellon
+    dir: gerber
+
+  - name: position
+    type: position
+    dir: gerber
+
+  - name: STEP
+    type: export_3d
+    dir: 3D
+    options:
+      format: "step"
+
+  - name: navigate
+    type: navigate_results
+    options:
+      link_from_root: "index.html"

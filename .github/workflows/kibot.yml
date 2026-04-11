@@ -1,0 +1,92 @@
+name: KiBot
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  check:
+    name: "ERC/DRC"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        dir: output
+        config: .github/kibot-check.yaml
+
+  fab:
+    name: Fab Outputs
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        dir: output
+        config: .github/kibot-fab.yml
+        schema: Obsidian/Obsidian.kicad_sch
+        board: Obsidian/Obsidian.kicad_pcb
+        verbose: 1
+    - name: Fab output
+      id: fab
+      uses: actions/upload-artifact@v6
+      with:
+        name: Fab
+        compression-level: 9
+        if-no-files-found: 'error'
+        path: |
+          output/*report.txt
+          output/*.csv
+          output/gerber/*
+    - name: Upload gh-pages preview
+      id: ghpages
+      uses: actions/upload-pages-artifact@v4
+      with:
+        retention-days: 7
+        path: output/
+
+  diffpr:
+    name: Pull Request Difference
+    runs-on: ubuntu-latest
+    if: ${{ github.base_ref }}
+    steps:
+    - uses: actions/checkout@v6
+      with:
+        fetch-depth: 0
+    - name: Tag PR base
+      run: |
+        git tag xxBASE ${{ github.event.pull_request.base.sha }}
+        git log -n1 xxBASE
+    - uses: INTI-CMNB/KiBot@v2_dk9
+      with:
+        dir: diff
+        config: .github/kibot-diff.yml
+        schema: Obsidian/Obsidian.kicad_sch
+        board: Obsidian/Obsidian.kicad_pcb
+        verbose: 3
+    - name: Upload Diff
+      id: diff
+      uses: actions/upload-artifact@v6
+      with:
+        name: pr-diff
+        compression-level: 9
+        if-no-files-found: 'error'
+        path: diff
+
+  publish:
+    runs-on: ubuntu-latest
+
+    if: github.ref=='refs/heads/main'
+    needs: fab
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.ghpages.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

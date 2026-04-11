@@ -1,0 +1,14 @@
+kibot:
+  version: 1
+global:
+  out_dir: output
+preflight:
+  check_zone_fills: true
+  erc: true
+  drc: true
+outputs:
+  - name: Info
+    type: info
+
+  - name: Report
+    type: report
