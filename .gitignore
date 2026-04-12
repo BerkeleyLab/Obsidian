@@ -1,4 +1,6 @@
 *-bak
 *-backups
 *.lck
-Obsidian/Fabrication/
+*.kicad_prl
+fp-info-cache
+*/Fabrication/
